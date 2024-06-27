@@ -1,0 +1,46 @@
+$white: #ffffff;
+$gray: #cccccc;
+$dark_gray: #464545;
+$black: #000000;
+$btn_background: #5550ff;
+
+body {
+    margin: 0;
+}
+
+.nav_container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.summit_input {
+    width: 30rem;
+    padding: 0.3rem;
+
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 0.3rem;
+    background: $gray;
+}
+
+.summit_btn {
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+    color: $white;
+
+    border: none;
+    border-radius: 0.3rem;
+    background: $btn_background;
+
+    &:hover {
+        color: $black;
+    }
+
+    &:active {
+        color: $black;
+    }
+}
