@@ -1,5 +1,6 @@
 # server.py
 from fastapi import FastAPI, Depends, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from typing import Annotated
 from functools import lru_cache
 import openai
@@ -7,6 +8,14 @@ import openai
 import config
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @lru_cache
 def get_settings():
