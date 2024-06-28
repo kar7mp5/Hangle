@@ -4,5 +4,5 @@ FrontEnd
 
 ## Quick Start
 ```console
-yarn dev
+$ yarn dev
 ```

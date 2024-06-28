@@ -39,7 +39,16 @@ $ yarn dev --host 0.0.0.0
 | LLM | Pytorch |
 
 ### Quick Start
-N/A
+1. **Make the file `.env`**
+2. **Edit the `.env` file in the following format.**
+```
+MODEL="gpt-3.5-turbo"
+API_KEY="CHATGPT API KEY"
+```
+
+```console
+$ fastapi dev server.py
+```
 
 ### Install Library
 ```console
