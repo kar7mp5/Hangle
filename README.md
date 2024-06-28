@@ -14,6 +14,8 @@
 ## FrontEnd
 <u>**More detail on `/backend/README.md`**</u> 
 
+![frontend image](./img/image.png)
+
 ### Tech Stack
 ReactTS + Vite
 
@@ -23,7 +25,7 @@ ReactTS + Vite
 $ yarn dev
 ```
 
-- **Run on other adress**
+- **Run on other address**
 ```console
 $ yarn dev --host 0.0.0.0
 ```
