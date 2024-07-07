@@ -14,7 +14,7 @@
 ## FrontEnd
 <u>**More detail on `/backend/README.md`**</u> 
 
-![frontend image](./img/image.png)
+![frontend image](./img/result.png)
 
 ### Tech Stack
 ReactTS + Vite
